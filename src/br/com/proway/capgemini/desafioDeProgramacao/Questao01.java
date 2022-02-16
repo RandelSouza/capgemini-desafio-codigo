@@ -8,7 +8,7 @@ import java.util.Scanner;
  * A base e altura da escada devem ser iguais ao valor de n. A última linha não deve conter nenhum espaço
  * @author Randel Souza Almeida
  * @version 1.0
- * @since jan 2022
+ * @since fev 2022
  */
 public class Questao01 {
 		
