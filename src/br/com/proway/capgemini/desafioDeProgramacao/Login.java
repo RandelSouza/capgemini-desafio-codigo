@@ -1,21 +1,34 @@
 package br.com.proway.capgemini.desafioDeProgramacao;
 
 import java.util.Objects;
-
-class Login{
+/**
+ * Classe Login, representa o login do usuário no sistema
+ * @author Randel Souza Almeida
+ * @version 1.0
+ * @since fev 2022
+ */
+public class Login{
+	/**
+	 * Nome utilizado para realização do login
+	 */
 	private String nome;
+	/**
+	 * Senha utilizada para ingressar no sistema
+	 */
 	private String senha;
 	
-	public int avaliarSenha(String senha) {
-		// Regras de Negócio
-		/*
-		 * Possui no mínimo 6 caracteres.
-		 * Contém no mínimo 1 digito.
-		 * Contém no mínimo 1 letra em minúsculo.
-		 * Contém no mínimo 1 letra em maiúsculo.
-		 * Contém no mínimo 1 caractere especial. Os caracteres especiais são: !@#$%^&*()-+
-		 */
-				
+	/**
+	 * Método que tem a finalidade de avaliar a segurança da senha propondo a adição ou não de mais caracteres
+	 * levando em conta as seguintes regras de negócio: <br/><br/>
+	 * Possuir no mínimo 6 caracteres. <br/>
+	 * Conter no mínimo 1 digito. <br/>
+	 * Conter no mínimo 1 letra em minúsculo. <br/>
+	 * Conter no mínimo 1 letra em maiúsculo. <br/>
+	 * Conter no mínimo 1 caractere especial. Os caracteres especiais são: !@#$%^&*()-+
+	 * @param senha senha do tipo String, senha que será avaliada o grau de segurança (força da senha)
+	 * @return retorno do tipo inteiro, é retornado quantos caracteres devem ser adicionados para que a senha seja segura
+	 */
+	public int avaliarSenha(String senha) {					
 		boolean maiscula = false; 
 		boolean minuscula = false;
 		boolean digito = false;

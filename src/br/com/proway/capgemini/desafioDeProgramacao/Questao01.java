@@ -42,8 +42,7 @@ public class Questao01 {
 		
 		for(int degrau = 1; degrau <= tamanho; degrau++) {
 			System.out.println();
-			imprimirLinha(tamanho, degrau);			
-			
+			imprimirLinha(tamanho, degrau);						
 		}
 		
 	}
