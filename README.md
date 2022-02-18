@@ -1,6 +1,6 @@
 <div align="center">
 <img width="100%" height="100%" alt="Logo Capgemini Brasil" src="./img/academia-capgemini.png">
-<p><strong>Academia Técnica Capgemini 2022! DESAFIO DE PROGRAMAÇÃO :rocket: </strong></p>
+<p style="font-size: 35px"><strong>Academia Técnica Capgemini 2022! DESAFIO DE PROGRAMAÇÃO :rocket: </strong></p>
 </div>
 
 
