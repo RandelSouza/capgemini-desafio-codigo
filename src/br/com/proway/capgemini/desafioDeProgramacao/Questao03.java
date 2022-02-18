@@ -81,7 +81,7 @@ public class Questao03 {
     * @return retorna um HashMap<String, Integer> que é o mapeamento das substrings
     */
     public static HashMap<String, Integer> mapearSubString( String palavra ){
-    	/*
+    	/**
     	 * HashMap armazena os dados em uma estrutura de pares chave e valor.
     	 * Nessa implementação a chave é do tipo String e o valor do tipo Integer.
     	 * A chave será cada substring e o valor a quantidade de ocorrências na palavra
