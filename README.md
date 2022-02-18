@@ -114,7 +114,7 @@ A lista de todos os anagramas pares são: [i, i], [q, q] e [ifa, fai] que estão
 # :nut_and_bolt: Tecnologias Utilizadas para o Desenvolvimento
 - [Eclipse IDE](https://www.eclipse.org/) - Ambiente de Desenvolvimento Integrado
 - [Java](https://www.java.com/) - Linguagem de programação Java
-- JavaDoc - ferramenta de geração de documentação Java
+- [JavaDoc](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html) - Ferramenta de geração da documentação Java
 
 
 
