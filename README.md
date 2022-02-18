@@ -112,8 +112,8 @@ A lista de todos os anagramas pares são: [i, i], [q, q] e [ifa, fai] que estão
 [[8, 9]] e [[0, 1, 2], [1, 2, 3]].
 
 # :nut_and_bolt: Tecnologias Utilizadas para o Desenvolvimento
-- [Eclipse IDE](https://www.eclipse.org/) - linguagem de programação Java
-- [Java](https://www.java.com/) - Ambiente de Desenvolvimento Integrado
+- [Eclipse IDE](https://www.eclipse.org/) - Ambiente de Desenvolvimento Integrado
+- [Java](https://www.java.com/) - Linguagem de programação Java
 - JavaDoc - ferramenta de geração de documentação Java
 
 
