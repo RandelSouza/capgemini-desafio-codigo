@@ -3,7 +3,7 @@ package br.com.proway.capgemini.desafioDeProgramacao;
 import java.util.Scanner;
 
 /**
- * <b>Descrição da questão:</b> Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere *
+ * <b>Descrição da Questão:</b> Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere *
  * e espaços. <br/>
  * A base e altura da escada devem ser iguais ao valor de n. A última linha não deve conter nenhum espaço
  * @author Randel Souza Almeida
@@ -15,7 +15,7 @@ public class Questao01 {
 	/**
 	 *  Método responsável por imprimir uma linha com espaços em branco e o * representando os degraus
 	 * @param tamanho tipo inteiro, tamanho da escada base e altura
-	 * @param nDegraus tipo inteiro, número de degraus em cada linha
+	 * @param nDegraus tipo inteiro, número de degraus em uma determinada linha
 	 */
 	public static void imprimirLinha(int tamanho, int nDegraus) {
 		int nEspacos = tamanho - nDegraus;
@@ -50,8 +50,7 @@ public class Questao01 {
 	/**
 	 * Médodo principal da classe, responsável pela execução do algoritmo	
 	 * @param args array de string, argumentos que podem ser passados para o método main
-	 */
-	
+	 */	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
