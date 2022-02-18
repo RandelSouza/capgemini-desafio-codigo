@@ -27,7 +27,7 @@ public class Login{
     * Método que tem a finalidade de avaliar a segurança da senha, propondo a adição ou não de mais caracteres
     * levando em conta as seguintes regras de negócio: <br/><br/>
     * Possuir no mínimo 6 caracteres. <br/>
-    * Conter no mínimo 1 digito. <br/>
+    * Conter no mínimo 1 dígito. <br/>
     * Conter no mínimo 1 letra em minúsculo. <br/>
     * Conter no mínimo 1 letra em maiúsculo. <br/>
     * Conter no mínimo 1 caractere especial. Os caracteres especiais são: !@#$%^&*()-+
@@ -53,9 +53,9 @@ public class Login{
     }
 
     /**
-     * Método contemDigito, verifica se a String senha contém o padrão de digito
-     * @param senha
-     * @return
+     * Método contemDigito, verifica se a String senha contém o padrão de dígito
+     * @param senha senha do tipo String 
+     * @return retorna um boolean, false se não contém dígito e true caso haja dígito
      */
     public boolean contemDigito(String senha){
         String padraoDigito = ".*[0-9].*";
@@ -64,8 +64,8 @@ public class Login{
 
     /**
     * Método contemCaractereEspecial, verifica se a String senha contém o padrão de caractere especial
-    * @param senha
-    * @return
+    * @param senha senha do tipo String 
+    * @return retorna um boolean, false se não contém caractere especial e true caso haja caractere especial
     */
     public boolean contemCaractereEspecial(String senha){
         String padraoCaractereEspecial = ".*[!@#$%^&*()-+].*";
@@ -74,8 +74,8 @@ public class Login{
 
     /**
     * Método contemMinuscula, verifica se a String senha contém o padrão de letra minuscula
-    * @param senha
-    * @return
+    * @param senha senha do tipo String 
+    * @return retorna um boolean, false se não contém letra minuscula e true caso haja letra minuscula  
     */
     public boolean contemMinuscula(String senha){
         String padraoMinuscula = ".*[a-z].*";
@@ -84,8 +84,8 @@ public class Login{
 
     /**
     * Método contemMaiuscula, verifica se a String senha contém o padrão de letra maiuscula
-    * @param senha
-    * @return
+    * @param senha senha do tipo String 
+    * @return retorna um boolean, false se não contém letra maiscula e true caso haja letra maiscula  
     */
     public boolean contemMaiuscula(String senha){
         String padraoMaiscula = ".*[A-Z].*";
@@ -102,23 +102,23 @@ public class Login{
 
     /**
     * Método setNome atribui o nome
-    * @param nome nome que será atribuido
+    * @param nome nome que será atribuído
     */
     public void setNome(String nome) {
         this.nome = nome;
     }
 
     /**
-    * Método getSenha
-    * @return
+    * Método getSenha obtém a senha do usuário
+    * @return retorna a senha do tipo String
     */
     public String getSenha() {
         return senha;
     }
 
     /**
-    * Método setSenha
-    * @param senha
+    * Método setSenha atribui a senha verificando antes se satisfaz as regras de negócio
+    * @param senha senha do usuário do tipo String
     */
     public void setSenha(String senha) {
         if(avaliarSenha(senha) == 0) {
@@ -127,7 +127,8 @@ public class Login{
     }
 
     /**
-    * Método hashCode
+    * Método hashCode  é uma ferramenta da JVM usada para montar a tabela de hash de modo correto. <br/>
+    * Isso permite que seja muito rápido recuperar uma informação na tabela.
     */
     @Override
     public int hashCode() {
@@ -135,7 +136,9 @@ public class Login{
     }
 
     /**
-    * Método equals
+    * Método equals é utilizado para comparações. <br/>
+    * A classe String e as classes Wrapper sobrescrevem equals() para garantir que dois objetos desses tipos,
+    * com o mesmo conteúdo, possam ser considerados iguais.
     */
     @Override
     public boolean equals(Object obj) {
@@ -150,7 +153,7 @@ public class Login{
     }
 
     /**
-    * Método toString
+    * Método toString, retorna uma representação em formato string dos atributos do objeto Login.    
     */
     @Override
     public String toString() {

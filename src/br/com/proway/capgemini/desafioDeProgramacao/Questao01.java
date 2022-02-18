@@ -26,7 +26,6 @@ public class Questao01 {
         for(; nDegraus > 0; nDegraus--) {
             System.out.print("*");
         }
-
     }
 
     /**
@@ -42,7 +41,6 @@ public class Questao01 {
             System.out.println();
             imprimirLinha(tamanho, degrau);
         }
-
     }
 
     /**
