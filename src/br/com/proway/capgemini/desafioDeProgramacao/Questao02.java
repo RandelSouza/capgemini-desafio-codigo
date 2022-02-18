@@ -28,7 +28,7 @@ import java.util.Scanner;
  *
  * <b>Explicação:</b><br/><br/>
  * Ela pode tornar a senha segura adicionando 3 caracteres, por exemplo, &ab, transformando
- * a senha em Ya3&ab. <b>
+ * a senha em Ya3&ab.
  * 2 caracteres não são suficientes visto que a senha precisa ter um tamanho
  * mínimo de 6 caracteres.
  * 
@@ -37,31 +37,29 @@ import java.util.Scanner;
  * @since fev 2022
  */
 public class Questao02 {
+    /**
+     * Médodo principal da classe, responsável pela execução do algoritmo
+     * @param args array de string, argumentos que podem ser passados para o método main
+     */
+    public static void main(String[] args) {
+        // Instânciando um Scanner para a entrada de dados pelo usuário
+        Scanner scanner = new Scanner(System.in);
 
-	/**
-	 * Médodo principal da classe, responsável pela execução do algoritmo	
-	 * @param args array de string, argumentos que podem ser passados para o método main
-	 */
-	public static void main(String[] args) {
-		// Instânciando um Scanner para a entrada de dados pelo usuário
-		Scanner scanner = new Scanner(System.in);
-		
-		// Instânciando um objeto Login
-		Login login = new Login();
-		
-		// Obtendo-se a senha pelo prompt
-		String senha = scanner.next();		
-		
-		// Fechando o scanner
-		scanner.close();
-		
-		// Verificando a segurança da senha
-		int senhaSegura = login.avaliarSenha(senha);
-		
-		// Mostrando as adições (ou não) de quantidade de caracteres necessários (levando em conta as regras de negócio)
-		System.out.println(senhaSegura);
-	}
+        // Instânciando um objeto Login
+        Login login = new Login();
 
+        // Obtendo-se a senha pelo prompt
+        String senha = scanner.next();
+
+        // Fechando o scanner
+        scanner.close();
+
+        // Verificando a segurança da senha
+        int senhaSegura = login.avaliarSenha(senha);
+
+        // Mostrando as adições (ou não) de quantidade de caracteres necessários (levando em conta as regras de negócio)
+        System.out.println(senhaSegura);
+    }
 }
 
 
