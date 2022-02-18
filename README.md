@@ -111,6 +111,14 @@ ifailuhkqq
 A lista de todos os anagramas pares são: [i, i], [q, q] e [ifa, fai] que estão nas posições [[0, 3]],
 [[8, 9]] e [[0, 1, 2], [1, 2, 3]].
 
+# :nut_and_bolt: Tecnologias Utilizadas para o Desenvolvimento
+- [Eclipse IDE](https://www.eclipse.org/) - linguagem de programação Java
+- [Java](https://www.java.com/) - Ambiente de Desenvolvimento Integrado
+- JavaDoc - ferramenta de geração de documentação Java
+
+
+
+
 # :arrow_forward: Rodando as Questões do Desafio
 
 
