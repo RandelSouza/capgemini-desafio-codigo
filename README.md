@@ -178,7 +178,13 @@ Tendo o projeto devidamente importado as questões serão executadas ao selecion
 </div>
 
 # :link: Link da Documentação Online
+Acessar documentação das questões online: 
 <a href="https://randelsouza.github.io/capgemini-desafio-codigo/doc/allclasses.html" target="_blank"  rel="noopener noreferrer">Documentação</a>
+
+<div align="center">
+<a href="https://randelsouza.github.io/capgemini-desafio-codigo/doc/allclasses.html" target="_blank"  rel="noopener noreferrer"> <img  alt="rodando questão 03" src="./img/documentacao-logo.png"></a>
+</div>
+
 
 
 
