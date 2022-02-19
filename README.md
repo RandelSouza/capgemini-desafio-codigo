@@ -150,7 +150,7 @@ Para isso, execute os seguintes pontos no eclipse:
 - Por fim, clicar em **Finish** para finalizar a importação.
 
 <div align="center">
-<img width="100%" height="100%" alt="Importando Projeto para o Eclipse" src="./img/importando-eclipse.gif">
+<img  alt="Importando Projeto para o Eclipse" src="./img/importando-eclipse.gif">
 </div>
 
 
