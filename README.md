@@ -153,6 +153,11 @@ Para isso, execute os seguintes pontos no eclipse:
 <img width="100%" height="100%" alt="Importando Projeto para o Eclipse" src="./img/importando-eclipse.gif">
 </div>
 
+Tendo o projeto devidamente importado as questões serão executadas ao selecionar o arquivo .java referente a questão e em seguida clicar no icone de execução (*run*):
+
+<div align="center">
+<img  alt="Como executar as questões" src="./img/executando-questoes.gif">
+</div>
 
 # :link: Link da Documentação Online
 <a href="https://randelsouza.github.io/capgemini-desafio-codigo/doc/allclasses.html" target="_blank"  rel="noopener noreferrer">Documentação</a>
