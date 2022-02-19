@@ -117,9 +117,31 @@ A lista de todos os anagramas pares são: [i, i], [q, q] e [ifa, fai] que estão
 - [JavaDoc](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html) - Ferramenta de geração da documentação Java
 
 
+# :arrow_forward: Baixando e Rodando as Questões do Desafio
 
+Antes de baixar o projeto verifique se está com o Java instalado, no meu caso eu uso o comando `java --version`, no Linux Ubuntu 20.04 LTS, para obter esses dados:
 
-# :arrow_forward: Rodando as Questões do Desafio
+<div align="center">
+<img  alt="Versão do java instalada" src="./img/java-version.png">
+</div>
+
+Para baixar o projeto existe a opção de clone diretamente pelo terminal ou ainda o download do arquivo compactado .zip .
+
+<div align="center">
+<img  alt="Opções de download" src="./img/opcoes-download.png">
+</div>
+
+O comando para clonar o repositório é:
+```
+git clone https://github.com/RandelSouza/capgemini-desafio-codigo.git
+```
+
+Com o repositório baixado a pasta será aberta na IDE eclipse. Para isso, execute os seguintes pontos no eclipse:
+
+- Clique em **File** -> **Open Projects From File Systems**.
+- No campo **import** source clicar em ***Directory**.
+- 
+
 
 
 # :link: Link da Documentação Online
