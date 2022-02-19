@@ -15,20 +15,20 @@ public class Questao01 {
      *  Método responsável por imprimir uma linha com espaços em branco e o * representando os degraus
      * @param tamanho tipo inteiro, tamanho da escada base e altura
      * @param nDegraus tipo inteiro, número de degraus em uma determinada linha
-     * @return uma linha representando o degrau de uma escada, tipo String 
+     * @return uma linha representando o degrau de uma escada, tipo String
      */
     public static String imprimirLinha(int tamanho, int nDegraus) {
         int nEspacos = tamanho - nDegraus;
         String linha = "";
 
-        for(; nEspacos > 0; nEspacos--) {            
+        for(; nEspacos > 0; nEspacos--) {
             linha += " ";
         }
 
-        for(; nDegraus > 0; nDegraus--) {          
+        for(; nDegraus > 0; nDegraus--) {
             linha += "*";
         }
-        
+
         return linha;
     }
 
@@ -38,15 +38,15 @@ public class Questao01 {
      * n = 10 // Tamanho da escada <br/>
      * imprimirEscada(n);
      * @param tamanho tipo inteiro, tamanho da escada base e altura
-     * @return uma representação de escada, tipo String 
+     * @return uma representação de escada, tipo String
      */
     public static String imprimirEscada(int tamanho) {
     	String escada = "";
-    	
+
         for(int degrau = 1; degrau <= tamanho; degrau++) {
             escada += imprimirLinha(tamanho, degrau) + "\n";
         }
-        
+
         return escada;
     }
 
@@ -61,8 +61,8 @@ public class Questao01 {
         int n = scanner.nextInt();
 
         scanner.close();
-        
-        String escada = imprimirEscada(n);        
+
+        String escada = imprimirEscada(n);
         System.out.print(escada);
     }
 }
