@@ -159,6 +159,24 @@ Tendo o projeto devidamente importado as questões serão executadas ao selecion
 <img  alt="Como executar as questões" src="./img/executando-questoes.gif">
 </div>
 
+### :arrow_forward::page_with_curl::one: Rodando a Questão 01
+
+<div align="center">
+<img  alt="rodando questão 01" src="./img/rodando-questao-01.gif">
+</div>
+
+### :arrow_forward::page_with_curl::two: Rodando a Questão 02
+
+<div align="center">
+<img  alt="rodando questão 02" src="./img/rodando-questao-02.gif">
+</div>
+
+### :arrow_forward::page_with_curl::three: Rodando a Questão 03
+
+<div align="center">
+<img  alt="rodando questão 03" src="./img/rodando-questao-03.gif">
+</div>
+
 # :link: Link da Documentação Online
 <a href="https://randelsouza.github.io/capgemini-desafio-codigo/doc/allclasses.html" target="_blank"  rel="noopener noreferrer">Documentação</a>
 
