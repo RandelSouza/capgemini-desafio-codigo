@@ -189,20 +189,33 @@ Acessar documentação das questões de forma online:
 # 🧪 Testes unitários
 
 JUnit é uma ferramenta de automatização de testes unitários e de testes de regressão para projetos Java.
-Foi utilizado para criar alguns testes nas questões propostas. A seguir são vistos os resultados dos testes criados.
 
-### 🧪:page_with_curl::one: Questão 01
+Para executar os testes separadamente é preciso:
+
+- Clicar com o botão direito na classe de testes.
+- Selecionar *Run AS* -> *JUnit Test*
+
+Ou então executar normalmente a classe **ExecutarTodosTestes**, que é uma automatização das execuções de todos os demais testes.
+
+<div align="center">
+<img  alt="rodando os testes separadamente" src="./img/rodando-testes.gif">
+</div>
+
+
+Essa ferramenta foi utilizada para criar alguns testes nas questões propostas. A seguir são vistos os resultados dos testes criados.
+
+### 🧪:page_with_curl::one: Resultado dos Testes Unitários Questão 01
 <div align="center">
 <img  alt="Testes Unitário Questão 01" src="./img/testeQuestao01.png">
 </div>
 
 
-### 🧪:page_with_curl::one: Questão 02
+### 🧪:page_with_curl::one: Resultado dos Testes Unitários  Questão 02
 <div align="center">
 <img  alt="Testes Unitário Questão 02" src="./img/testeQuestao02.png">
 </div>
 
-### 🧪:page_with_curl::one: Questão 03
+### 🧪:page_with_curl::one: Resultado dos Testes Unitários  Questão 03
 <div align="center">
 <img  alt="Testes Unitário Questão 03" src="./img/testeQuestao03.png">
 </div>
