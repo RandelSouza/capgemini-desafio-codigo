@@ -115,6 +115,7 @@ A lista de todos os anagramas pares são: [i, i], [q, q] e [ifa, fai] que estão
 - [Eclipse IDE](https://www.eclipse.org/) - Ambiente de Desenvolvimento Integrado
 - [Java](https://www.java.com/) - Linguagem de programação Java
 - [JavaDoc](https://docs.oracle.com/javase/8/docs/technotes/tools/windows/javadoc.html) - Ferramenta de geração da documentação Java
+- [JUnit](http://mauda.com.br/?p=111#:~:text=Inicie%20o%20Eclipse%2C%20apontando%20para,contenha%20um%20Projeto%20Java%20criado.&text=Ser%C3%A1%20apresentada%20uma%20dialog%20com,como%20mostra%20a%20Figura%2004.&text=Na%20comboBox%20JUnit%20library%20version,e%20clicar%20no%20bot%C3%A3o%20Finish.) - Ferramenta para cobertura de testes unitários (Configurando JUnit em Projeto Java no Eclipse).
 
 
 # :arrow_forward: Baixando e Rodando as Questões do Desafio
@@ -178,12 +179,36 @@ Tendo o projeto devidamente importado as questões serão executadas ao selecion
 </div>
 
 # :link: Link da Documentação Online
-Acessar documentação das questões online: 
-<a href="https://randelsouza.github.io/capgemini-desafio-codigo/doc/allclasses.html" target="_blank"  rel="noopener noreferrer">Documentação</a>
+Acessar documentação das questões de forma online: 
+<a href="https://randelsouza.github.io/capgemini-desafio-codigo/doc/allclasses.html" target="_blank"  rel="noopener noreferrer">Documentação</a>.
 
 <div align="center">
 <a href="https://randelsouza.github.io/capgemini-desafio-codigo/doc/allclasses.html" target="_blank"  rel="noopener noreferrer"> <img  alt="rodando questão 03" src="./img/documentacao-logo.png"></a>
 </div>
+
+# 🧪 Testes unitários
+
+JUnit é uma ferramenta de automatização de testes unitários e de testes de regressão para projetos Java.
+Foi utilizado para criar alguns testes nas questões propostas. A seguir são vistos os resultados dos testes criados.
+
+### 🧪:page_with_curl::one: Questão 01
+<div align="center">
+<img  alt="Testes Unitário Questão 01" src="./img/testeQuestao01.png">
+</div>
+
+
+### 🧪:page_with_curl::one: Questão 02
+<div align="center">
+<img  alt="Testes Unitário Questão 02" src="./img/testeQuestao02.png">
+</div>
+
+### 🧪:page_with_curl::one: Questão 03
+<div align="center">
+<img  alt="Testes Unitário Questão 03" src="./img/testeQuestao03.png">
+</div>
+
+
+
 
 
 
