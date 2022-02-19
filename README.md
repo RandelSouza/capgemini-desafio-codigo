@@ -149,7 +149,9 @@ Para isso, execute os seguintes pontos no eclipse:
 - Clicar em **Abrir**.
 - Por fim, clicar em **Finish** para finalizar a importação.
 
-
+<div align="center">
+<img width="100%" height="100%" alt="Importando Projeto para o Eclipse" src="./img/importando-eclipse.gif">
+</div>
 
 
 # :link: Link da Documentação Online
