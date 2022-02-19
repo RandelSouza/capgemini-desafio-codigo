@@ -90,7 +90,7 @@ public class Questao03 {
     	 * {a=2, ac=1, aads=1, c=1, acd=1, ad=1, d=1, ds=1, ads=2, as=1, s=1, aacds=1, acds=1}
     	 * 
     	 * Cada chave à esquerda da igualdade e o valor à direita,
-    	 * neste exemplo existem duas substrings que são anagramas são "ads" e "a", ['ads',  'dsa'], ['a', 'a'] 
+    	 * neste exemplo existem duas substrings que são anagramas são "ads" e "a", ['ads',  'dsa'], ['a', 'a']
     	 * estão nos índices [ [1, 2, 3], [2, 3, 4] ] e [ [1, 4] ] respectivamente.
     	 */
         HashMap<String, Integer> mapaAnagramas = new HashMap<>();

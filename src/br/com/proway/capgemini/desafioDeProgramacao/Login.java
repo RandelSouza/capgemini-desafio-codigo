@@ -54,17 +54,17 @@ public class Login{
 
     /**
      * Método contemDigito, verifica se a String senha contém o padrão de dígito
-     * @param senha senha do tipo String 
+     * @param senha senha do tipo String
      * @return retorna um boolean, false se não contém dígito e true caso haja dígito
      */
     public boolean contemDigito(String senha){
         String padraoDigito = ".*[0-9].*";
-         return senha.matches(padraoDigito);
+        return senha.matches(padraoDigito);
     }
 
     /**
     * Método contemCaractereEspecial, verifica se a String senha contém o padrão de caractere especial
-    * @param senha senha do tipo String 
+    * @param senha senha do tipo String
     * @return retorna um boolean, false se não contém caractere especial e true caso haja caractere especial
     */
     public boolean contemCaractereEspecial(String senha){
@@ -74,8 +74,8 @@ public class Login{
 
     /**
     * Método contemMinuscula, verifica se a String senha contém o padrão de letra minuscula
-    * @param senha senha do tipo String 
-    * @return retorna um boolean, false se não contém letra minuscula e true caso haja letra minuscula  
+    * @param senha senha do tipo String
+    * @return retorna um boolean, false se não contém letra minuscula e true caso haja letra minuscula
     */
     public boolean contemMinuscula(String senha){
         String padraoMinuscula = ".*[a-z].*";
@@ -84,8 +84,8 @@ public class Login{
 
     /**
     * Método contemMaiuscula, verifica se a String senha contém o padrão de letra maiuscula
-    * @param senha senha do tipo String 
-    * @return retorna um boolean, false se não contém letra maiscula e true caso haja letra maiscula  
+    * @param senha senha do tipo String
+    * @return retorna um boolean, false se não contém letra maiscula e true caso haja letra maiscula
     */
     public boolean contemMaiuscula(String senha){
         String padraoMaiscula = ".*[A-Z].*";
@@ -153,7 +153,7 @@ public class Login{
     }
 
     /**
-    * Método toString, retorna uma representação em formato string dos atributos do objeto Login.    
+    * Método toString, retorna uma representação em formato string dos atributos do objeto Login.
     */
     @Override
     public String toString() {
