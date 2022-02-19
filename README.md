@@ -131,16 +131,24 @@ Para baixar o projeto existe a opção de clone diretamente pelo terminal ou ain
 <img  alt="Opções de download" src="./img/opcoes-download.png">
 </div>
 
+Para que a importação do projeto no eclipse seja efetuada corretamente futuramente é importante clonar dentro do workspace do eclipse, ou mover após o download.
+
 O comando para clonar o repositório é:
+
 ```
 git clone https://github.com/RandelSouza/capgemini-desafio-codigo.git
 ```
 
-Com o repositório baixado a pasta será aberta na IDE eclipse. Para isso, execute os seguintes pontos no eclipse:
+Com o repositório baixado a pasta será aberta na IDE eclipse.
 
-- Clique em **File** -> **Open Projects From File Systems**.
-- No campo **import** source clicar em ***Directory**.
-- 
+Para isso, execute os seguintes pontos no eclipse:
+
+- Clicar em **File** -> **Import**.
+- Selecionar **Existing Projects into Workspace**.
+- Selecionar o projeto que deseja importar clicando em **Browse**.
+- Clicar em **Abrir**.
+- Por fim, clicar em **Finish** para finalizar a importação.
+
 
 
 
