@@ -226,9 +226,9 @@ Essa ferramenta foi utilizada para criar alguns testes nas questões propostas. 
 <div align="center">
 <img  alt="Testes Unitário Questão 03" src="https://media-exp1.licdn.com/dms/image/C5603AQH0w2ntJgBdrg/profile-displayphoto-shrink_200_200/0/1643893091488?e=1650499200&v=beta&t=TRhjYnpdO2wD2QRZajOZM0UJJZkNbbih1DQa43qF79M">
 <p ><strong>Desenvolvido com carinho :heart_eyes_cat: por <br/> Randel Souza Almeida :smiley_cat:</strong></p>
-<img src="https://img.shields.io/badge/-Randel-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/randelsouza/">
+<a href="https://www.linkedin.com/in/randelsouza/"><img src="https://img.shields.io/badge/-Randel-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/randelsouza/"></a>
 &nbsp;
-<img src="https://img.shields.io/badge/-randelsouza88@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:randelsouza88@gmail.com">
+<a href="mailto:randelsouza88@gmail.com"><img src="https://img.shields.io/badge/-randelsouza88@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=mailto:randelsouza88@gmail.com"></a>
 </div>
 
 
