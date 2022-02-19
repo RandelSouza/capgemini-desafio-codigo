@@ -168,7 +168,7 @@ Tendo o projeto devidamente importado as questões serão executadas ao selecion
 ### :arrow_forward::page_with_curl::two: Rodando a Questão 02
 
 <div align="center">
-<img  width="80%" height="80%" alt="rodando questão 02" src="./img/rodando-questao-02.gif">
+<img  width="100%" height="100%" alt="rodando questão 02" src="./img/rodando-questao-02.gif">
 </div>
 
 ### :arrow_forward::page_with_curl::three: Rodando a Questão 03
