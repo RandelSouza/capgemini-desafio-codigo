@@ -3,13 +3,23 @@ package br.com.proway.capgemini.desafioDeProgramacao;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
-
+/**
+ * Classe destinada a automatizar os testes unitarios das questões 01, 02 e 03.
+ * @author Randel Souza Almeida
+ * @version 1.0
+ * @since fev 2022
+ */
 public class ExecutarTodosTestes {
-    public static void main(String[] args) {
+	
+    /**
+    * Automatizando execução dos testes da questão 01, 02 e 03.
+    * @param args array de String, argumentos que podem ser passados para o método main     
+    */
+    public static void main(String[] args) {       
         /*
         * Automatizando execução dos testes da questão 01.
         */
-        Result resultadoQuestao01 = JUnitCore.runClasses(TestesUnitariosQuestao01.class);
+    	Result resultadoQuestao01 = JUnitCore.runClasses(TestesUnitariosQuestao01.class);
 
         for (Failure falha : resultadoQuestao01.getFailures()) {
              System.out.println(falha);
