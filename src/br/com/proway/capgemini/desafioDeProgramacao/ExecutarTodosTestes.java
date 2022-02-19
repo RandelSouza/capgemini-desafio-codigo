@@ -4,7 +4,7 @@ import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
 import org.junit.runner.notification.Failure;
 /**
- * Classe destinada a automatizar os testes unitarios das questões 01, 02 e 03.
+ * Classe destinada a automatizar os testes unitários das questões 01, 02 e 03.
  * @author Randel Souza Almeida
  * @version 1.0
  * @since fev 2022

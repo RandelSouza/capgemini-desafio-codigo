@@ -12,7 +12,7 @@ import org.junit.Test;
 public class TestesUnitariosQuestao02 {
     public static final Login login = new Login();
 
-    /*
+    /**
      * Testando com a regra de caractere maiúsculo, minúsculo e digito satisfeitos,
      * faltando caractere especial e regra dos 6 digitos.
      * Resultado esperado 3.
@@ -22,7 +22,7 @@ public class TestesUnitariosQuestao02 {
         Assert.assertEquals(login.avaliarSenha("Ya3"),  3);
     }
 
-    /*
+    /**
      * Testando com a regra de caractere maiúsculo, minúsculo, digito e
      * caractere especial satisfeitos, e regra dos 6 digitos não satisfeito.
      * Resultado esperado 1.
@@ -32,7 +32,7 @@ public class TestesUnitariosQuestao02 {
         Assert.assertEquals(login.avaliarSenha("CapG&M"),  1);
     }
 
-    /*
+    /**
      * Testando com a regra de caractere maiúsculo, minúsculo, digito e
      * caractere especial satisfeitos, e regra dos 6 digitos  satisfeito.
      * Resultado esperado 0.
@@ -42,7 +42,7 @@ public class TestesUnitariosQuestao02 {
         Assert.assertEquals(login.avaliarSenha("8Vxap@"),  0);
     }
 
-    /*
+    /**
      * Testando com a regra de caractere maiúsculo, digito e
      * caractere especial não satisfeitos.
      * Regra de caractere minúsculo satisfeito
