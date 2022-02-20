@@ -33,14 +33,14 @@ public class Questao01 {
     }
 
     /**
-     * Método responsável por imprimir as n linhas da escada<br/><br/>
+     * Método responsável por criar as n linhas da escada<br/><br/>
      * <b>Uso: </b><br/><br/>
      * n = 10 // Tamanho da escada <br/>
      * imprimirEscada(n);
      * @param tamanho tipo inteiro, tamanho da escada base e altura
      * @return uma representação de escada, tipo String
      */
-    public static String imprimirEscada(int tamanho) {
+    public static String criarEscada(int tamanho) {
     	String escada = "";
 
         for(int degrau = 1; degrau <= tamanho; degrau++) {
@@ -62,7 +62,7 @@ public class Questao01 {
 
         scanner.close();
 
-        String escada = imprimirEscada(n);
+        String escada = criarEscada(n);
         System.out.print(escada);
     }
 }
