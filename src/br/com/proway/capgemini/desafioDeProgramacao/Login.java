@@ -19,7 +19,7 @@ public class Login{
     private String senha;
 
     /**
-    * Constante que determina o número de caracteres minimo para a senha
+    * Constante que determina o número de caracteres mínimo para a senha
     */
     public static final int CARACTERE_MIN = 6;
 
@@ -73,9 +73,9 @@ public class Login{
     }
 
     /**
-    * Método contemMinuscula, verifica se a String senha contém o padrão de letra minuscula
+    * Método contemMinuscula, verifica se a String senha contém o padrão de letra minúscula
     * @param senha senha do tipo String
-    * @return retorna um boolean, false se não contém letra minuscula e true caso haja letra minuscula
+    * @return retorna um boolean, false se não contém letra minuscula e true caso haja letra minúscula
     */
     public boolean contemMinuscula(String senha){
         String padraoMinuscula = ".*[a-z].*";
@@ -83,9 +83,9 @@ public class Login{
     }
 
     /**
-    * Método contemMaiuscula, verifica se a String senha contém o padrão de letra maiuscula
+    * Método contemMaiuscula, verifica se a String senha contém o padrão de letra maiúscula
     * @param senha senha do tipo String
-    * @return retorna um boolean, false se não contém letra maiscula e true caso haja letra maiscula
+    * @return retorna um boolean, false se não contém letra maiúscula e true caso haja letra maiúscula
     */
     public boolean contemMaiuscula(String senha){
         String padraoMaiscula = ".*[A-Z].*";

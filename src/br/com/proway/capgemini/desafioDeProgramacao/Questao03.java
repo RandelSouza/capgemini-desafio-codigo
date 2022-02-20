@@ -45,7 +45,7 @@ import java.util.Scanner;
  */
 public class Questao03 {
      /**
-     * Médodo principal da classe, responsável pela execução do algoritmo
+     * Método principal da classe, responsável pela execução do algoritmo
      * @param args array de String, argumentos que podem ser passados para o método main
      */
     public static void main( String[] args ) {
