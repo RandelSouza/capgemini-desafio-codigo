@@ -25,7 +25,7 @@ public class TestesUnitariosQuestao01 {
                       + " *****\n"
                       + "******\n";
 
-        Assert.assertEquals(Questao01.imprimirEscada(tamanhoEscada), escada);
+        Assert.assertEquals(Questao01.criarEscada(tamanhoEscada), escada);
 
     }
 
@@ -44,7 +44,7 @@ public class TestesUnitariosQuestao01 {
                       + "*****\n"
                       + "******\n";
 
-        Assert.assertNotEquals(Questao01.imprimirEscada(tamanhoEscada), escada);
+        Assert.assertNotEquals(Questao01.criarEscada(tamanhoEscada), escada);
     }
 
     /**
@@ -63,7 +63,7 @@ public class TestesUnitariosQuestao01 {
                       + "**    \n"
                       + "*     \n";
 
-        Assert.assertNotEquals(Questao01.imprimirEscada(tamanhoEscada), escada);
+        Assert.assertNotEquals(Questao01.criarEscada(tamanhoEscada), escada);
    }
 }
 
